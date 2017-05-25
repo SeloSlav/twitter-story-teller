@@ -1,3 +1,5 @@
+![Twitter Story Teller Logo](https://github.com/santafebound/twitter-story-teller/blob/master/web_hi_res_512%20(2).png)
+
 # twitter-story-teller
 A Selenium Webdriver script for parsing a .txt file into a series of automated tweets.
 
