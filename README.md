@@ -11,7 +11,7 @@ It is assumed that you have a working version of either the Eclipse or IntelliJ 
 
 First, you will need to open the <b>commands.properties</b> file in your IDE. This is where you set your Twitter <b>username</b> and <b>password</b>. If you are concerned about security, please don't worry. This script is run only locally on your own machine. In other words, nobody other than yourself will have access to your Twitter username and password. If, on the other hand, you intend to modify this code by running it on a web application, you will probably want to set up some kind of authentication protocol via the Twitter oAuth API so that your users can take advantage of the service safely.
 
-The <b>story</b> parameter in the commands.properties file for now because that is only necessary if you have set a custom path for your input text file. If you would like to do so, see the "Flags" section header below for more information.
+The <b>story</b> parameter in the commands.properties file can be ignored for now because changing it is only necessary if you prefer a custom path for your input text file. If you would like to do so, see the "Flags" section header below for more information.
 
 Lastly, if you're using <b>IntelliJ</b> create a Run/Debug Configuration using the JUnit option, and set ValidationTest as your main class.
 
