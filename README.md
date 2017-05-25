@@ -11,7 +11,9 @@ It is assumed that you have a working version of either the Eclipse or IntelliJ 
 
 First, you will need to open the <b>commands.properties</b> file in your IDE. This is where you set your Twitter <b>username</b> and <b>password</b>. If you are concerned about security, please don't worry. This script is run only locally on your own machine. In other words, nobody other than yourself will have access to your Twitter username and password. If, on the other hand, you intend to modify this code by running it on a web application, you will probably want to set up some kind of authentication protocol via the Twitter oAuth API so that your users can take advantage of the service safely.
 
-That being said, you can ignore the <b>story</b> parameter in the commands.properties file for now because that is only necessary if you have set a custom path for your input text file. If you would like to do so, see the "Flags" section header below for more information.
+The <b>story</b> parameter in the commands.properties file for now because that is only necessary if you have set a custom path for your input text file. If you would like to do so, see the "Flags" section header below for more information.
+
+Lastly, if you're using <b>IntelliJ</b> create a Run/Debug Configuration using the JUnit option, and set ValidationTest as your main class.
 
 <h3>Get Tweeting!</h3>
 
@@ -21,7 +23,7 @@ You may also modify the script by setting various flags for common situations. S
 
 <h2>Flags</h2>
 
-There are three flags at the top of the main Java class (ValidationClass.java) that will affect how the script is executed. Explanations, and their default values, follow:
+There are two flags at the top of the main Java class (ValidationClass.java) that will affect how the script is executed. Explanations, and their default values, follow:
 
 	/*
 	 * Set this flag to true if you would like to use a custom path for your
